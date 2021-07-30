@@ -1,0 +1,82 @@
+
+  input.ipt{
+    width: 8%;
+    padding-top: 0.6rem;
+  }
+
+  button.loginbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:max-content;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .addtocat{
+    background-color: #31331d;
+    color: white;
+    padding: 10px 10px;
+    margin: 2px 0;
+    border: none;
+    cursor: pointer;
+    width: max-content;
+  }
+
+  div.person{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: black;
+    border-radius: 5;
+    background-color: rgb(242, 236, 248);
+  }
+
+  div.prods{
+    border: 1px solid black;
+    border-radius: 9px;
+    padding: 5mm;
+    margin: 0.3mm;
+  }
+
+  button.ldmr{
+    align-items: center;
+    background-color: #084b77;
+    color: rgb(240, 212, 212);
+    padding: 14px 20px;
+    margin: 2rem;
+    position: relative;
+    left: 45%;
+  }
+
+ div.logcont{
+   display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 3.5rem;
+    border: 2px solid black;
+    border-radius: 9px;
+    position: relative;
+    left: 38%;
+    background-color: rgb(255, 247, 238);
+  }
+
+  h2.prod{
+    text-align: center;
+    color: rgb(11, 65, 165);
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: cornflowerblue;
+    text-decoration: cadetblue;
+  }
+
+  div #errmsg{
+    color: crimson;
+  }
+
+  div.logo{
+    background-color: rgb(250, 228, 228);
+  }

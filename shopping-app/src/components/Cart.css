@@ -1,0 +1,44 @@
+    
+    
+    button:hover {
+      opacity: 0.8;
+    }
+    
+    .addtocart{
+      background-color: #31331d;
+      color: white;
+      padding: 10px 10px;
+      margin: 2px 0;
+      border: none;
+      cursor: pointer;
+      width: max-content;
+    }
+  
+    div.pers{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+      border: black;
+      border-radius: 5;
+    }
+/* 
+    .column {
+      float:left;
+      padding: 10px; /* Should be removed. Only for demonstration */
+    
+    .right {
+      width: 25%;
+      padding: 10px;
+    }
+    
+    .pers {
+      width: 75%;
+      float:left;
+      padding: 10px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
